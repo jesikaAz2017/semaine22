@@ -1,4 +1,43 @@
-/* COLONNES*/
+@import url(font-awesome.min.css);
+
+/* CSS Challenge 2 - BOOTSTRAP - Alice KEPL-DANET - Jessica ANSCHUTZ */
+
+/* --- Table des matières CSS  ---
+1- Fonds 
+2- Header
+3- Navigation
+4- Articles
+6-Pagination
+7-Footer
+ */
+
+/* --- Fonds  --- */
+
+ body {
+     background: url(../img/bg.jpg) no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-color: #1e252d;
+  }
+     
+ html {
+ 	  font-size: 16pt;
+ }
+ 
+ a:hover { 
+ 	 border-bottom-color: transparent;
+ }
+
+/* --- Header --- */
+
+(en cours ...)
+
+/* --- Navigation  --- */
+
+(en cours ..)
+
+
+/* Articles (colonnes)*/
 .intro {
 	font-family: lucida sans unicode, lucida grande, sans-serif;
 	text-align: center;
@@ -81,3 +120,8 @@ h2 {
 	padding-bottom: 60px;
 	padding-left: 60px;
 }
+
+/* --- Pagination  --- */
+ (en cours)
+/* --- Footer  --- */
+ (en cours)
