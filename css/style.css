@@ -1,0 +1,83 @@
+/* COLONNES*/
+.intro {
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	text-align: center;
+	font-size: 10px;
+
+}
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.bouton {
+	list-style-type: none;
+	display: inline-block;
+
+
+}
+.bouton:hover a{
+	color: ;
+	transition: 0.3s;
+}
+
+.date-haut{
+	font-size: 10px;
+	text-align: center;
+	color: #7a7a7a;
+}
+
+h1 {
+	color: #000000;
+	font-family: trebuchet ms, helvetica, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.btn-default {
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+}
+
+.container {
+	width: 1050px;
+
+}
+
+.date {
+	color: #7a7a7a;
+	text-align: center;	
+}
+
+h2 {
+	color: #000000;
+	text-align: center;
+	font-family: verdana, geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+
+.texte-photo {
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	color: #555;
+	font-size: 15px;
+	padding-top: 30px;
+	text-align: justify;
+}
+
+.col-md-6 {
+	padding-top: 60px;
+	padding-right: 60px;
+	padding-bottom: 60px;
+	padding-left: 60px;
+}
