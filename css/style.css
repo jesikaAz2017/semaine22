@@ -30,11 +30,12 @@
 	color: #7a7a7a;
 }
 
-h1 {
+h2 {
 	color: #000000;
 	font-family: trebuchet ms, helvetica, sans-serif;
 	text-align: center;
 	text-transform: uppercase;
+	font-size: 60px;
 	font-weight: bold;
 	padding-top: 15px;
 	padding-bottom: 10px;
@@ -57,7 +58,7 @@ h1 {
 	text-align: center;	
 }
 
-h2 {
+h3 {
 	color: #000000;
 	text-align: center;
 	font-family: verdana, geneva, sans-serif;
