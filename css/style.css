@@ -1,3 +1,280 @@
+/* CSS Challenge 2 - BOOTSTRAP - Alice KEPL-DANET - Jessica ANSCHUTZ */
+
+/* --- Table des matières CSS  ---
+1- Fonds  
+2- Header
+3- Navigation
+4- Articles
+6-Pagination
+7-Footer
+ */
+
+/* --- Fonds  --- */
+
+body {
+     background: url(../img/bg.jpg) no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     margin: 0;
+     padding : 0;
+  }
+  
+@font-face {
+     font-family: "Merriweather, SourceSansPro-Regular";
+     src: url("../fonts/Merriweather-regular.ttf" "..fonts/SourceSansPro-Regular.ttf")
+} 
+ 
+
+/* --- Header --- */
+
+#header {
+	display:block;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.jumbotron {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+
+/* --- Navigation  --- */
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+a:active,a:hover {
+  outline: 0;
+  background-color:transparent;
+}
+
+/* Articles (colonnes)*/
+
+.intro {
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	text-align: center;
+	font-size: 10px;
+
+}
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.bouton {
+	list-style-type: none;
+	display: inline-block;
+
+
+}
+.bouton:hover a{
+	color: ;
+	transition: 0.3s;
+}
+
+.date-haut{
+	font-size: 10px;
+	text-align: center;
+	color: #7a7a7a;
+}
+
+h1 {
+	color: #000000;
+	font-family: trebuchet ms, helvetica, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.btn-default {
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+}
+
+
+.date {
+	color: #7a7a7a;
+	text-align: center;	
+}
+
+h2 {
+	color: #000000;
+	text-align: center;
+	font-family: verdana, geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+
+.texte-photo {
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	color: #555;
+	font-size: 15px;
+	padding-top: 30px;
+	text-align: justify;
+}
+
+.col-md-6 {
+	padding-top: 60px;
+	padding-right: 60px;
+	padding-bottom: 60px;
+	padding-left: 60px;
+}
+
+/* --- Pagination  --- */
+
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.pagination > .pageactive > a:hover {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+/* --- Footer  --- */
+
+/* formulaire  */
+.formulaire { 
+	background-color:#000000;
+}
+
+.field , .actions , .contacts alt { 
+	font-family: ;
+	font-size: ;
+}
+
+
+/* icones sociales */
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* ---footer social icons--- */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+a {
+ background-color: #D3D3D3;   
+}
+
+.form-group-sm .form-control {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.navbar-form .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  
+  #copyright { 
+ ; 
+ }
+ 
+ 
+/*=======*/ 
 /* COLONNES*/
 .intro {
 	font-family: lucida sans unicode, lucida grande, sans-serif;
