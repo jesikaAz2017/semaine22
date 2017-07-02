@@ -1,5 +1,5 @@
-# semaine22
+# Challenge-02
 
-Challenge 02 
+Challenge 02  - Premier challenge en binôme
 
-Binôme Jessica ANSCHUTZ et Alice KEPL DANET
+Auteurs : Jessica ANSCHUTZ et Alice KEPL DANET
